@@ -2,6 +2,7 @@ import json
 import os
 import subprocess
 
+
 class Utils():
 
     @staticmethod
@@ -43,7 +44,7 @@ class GmapTileGenerator():
         return 'tile-' + format(row_index, '02') + '-' + format(col_index, '02') + '.png'
 
     @staticmethod
-    def generate_screenshots():
+    def generate_tiles():
         if not GmapTileGenerator._check_images_dir():
             print 'Remove folder \'' + GmapTileGenerator._config['images-dir'] + '\' and retry.'
             return
@@ -69,5 +70,5 @@ class GmapTileGenerator():
             row_index += 1
 
 
-sg = GmapTileGenerator('config.json')
-sg.generate_screenshots()
+gtg = GmapTileGenerator('config.json')
+gtg.generate_tiles()
