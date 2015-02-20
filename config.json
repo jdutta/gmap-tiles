@@ -1,0 +1,14 @@
+{
+    "url-template": "https://maps.googleapis.com/maps/api/staticmap?center=__LAT__,__LONG__&zoom=__ZOOM__&size=640x640&maptype=roadmap&style=element:geometry.stroke|visibility:off&scale=2&style=element:labels.text.fill|color:0xffffff&style=element:labels.text.stroke|visibility:off&style=element:labels.icon|gamma:0.4&style=feature:landscape|element:geometry|color:0x1f2128&style=feature:poi|element:geometry|color:0x146564&style=feature:poi.park|element:geometry|gamma:1.0|lightness:-26|saturation:20&style=feature:road|element:geometry|color:0xb52127&style=feature:road.highway|element:geometry|weight:4|lightness:30|saturation:80|gamma:1&style=feature:road.arterial|element:geometry|weight:4|lightness:0|gamma:1&style=feature:road.local|element:geometry|weight:1.2|lightness:-40|saturation:0|gamma:1&style=feature:road|element:labels|visibility:simplified&style=feature:transit|element:geometry|color:0xffbb42&style=feature:transit.stations.bus|element:labels|visibility:off&style=feature:water|element:geometry|color:0x1ca8dd",
+    "zoom": 15,
+    "increment": 0.02,
+    "start-coord": {
+        "lat": 31.495,
+        "long": 74.405
+    },
+    "end-coord": {
+        "lat": 31.395,
+        "long": 74.505
+    },
+    "images-dir": "images"
+}
