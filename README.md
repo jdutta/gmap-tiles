@@ -22,3 +22,11 @@ The lat/long of the top-left corner of the desired map.
 
 #### end-coord:
 The lat/long of the bottom-right corner of the desired map.
+
+## Generate tiles:
+
+Clear the `images` folder first.
+
+`python ./generate_tiles.py`
+
+This will generate the tiles in the `images` folder. The naming is: `tile-RR-CC.png` where `RR` is row index and `CC` is col index.
