@@ -15,7 +15,7 @@ The static maps download url with variables `__LAT__`, `__LONG__` and `__ZOOM__`
 The zoom factor. This will affect the following parameter.
 
 #### increment:
-The delta of latitude or longitude between successive tiles. First choose the zoom level, then play with the lat/long in url such that the next tile will have approx 20% overlap. The difference in latitude or longiture is the increment.
+The delta of latitude or longitude between successive tiles. First choose the zoom level, then play with the lat/long in url such that the next tile will have approx 20% overlap. The difference in latitude or longitude is the increment.
 
 #### start-coord:
 The lat/long of the top-left corner of the desired map.
