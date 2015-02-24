@@ -4,7 +4,7 @@ Script to import static google map tiles as images
 ## Motivation:
 Build a high resolution static map image by stitching together smaller static map "tiles". Google static map api allows downloading 640x640 tiles, styled in a variety of ways. Those tiles can then be stitched manually in photoshop, or by some tool like hugin.
 
-How to configure styling of static maps: play with https://snazzymaps.com/editor until desired style is obtainer, then from the json it is fairly straightforward to convert the config to the url params.
+How to configure styling of static maps: play with https://snazzymaps.com/editor until you get the desired style, then from the json it is fairly straightforward to convert the config to the url params.
 
 ## config.json
 
